@@ -1,20 +1,47 @@
 package org.Restaurants.Entity;
 
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
 import java.time.LocalDate;
+import java.util.UUID;
 
+@Entity
+@Table(name="restaurants")
 public class Restaurant {
-    private int id;
+
+    @Id
+    @Column(name="id")
+    private UUID id;
+
+    @Column(name="name")
     private String name;
+
+    @Column(name="type")
     private String type;
+
+    @Column(name="address")
     private String address;
+
+    @Column(name="Phonenb")
     private String phoneNb;
+
+    @Column(name="avgcostfortwo")
     private int costForTwo;
+
+    @Column(name="photolink")
+    private String photo;
+
+    @Column(name="visited")
     private boolean visited;
+
+    @Column(name="visiteddate")
     private LocalDate visitDate;
 
 
     //constructors
-    public Restaurant(int id, String name, String type, String address, String phoneNb, int costForTwo) {
+    public Restaurant(UUID id, String name, String type, String address, String phoneNb, int costForTwo) {
         this.id = id;
         this.name = name;
         this.type = type;
@@ -28,7 +55,7 @@ public class Restaurant {
     public Restaurant() {}
 
     //setters
-    public void setId(int id) {this.id = id;}
+    public void setId(UUID id) {this.id = id;}
     public void setName(String name) {this.name = name;}
     public void setType(String type) {this.type = type;}
     public void setAddress(String address) {this.address = address;}
@@ -38,7 +65,7 @@ public class Restaurant {
     public void setVisitDate(LocalDate visitDate) {this.visitDate = visitDate;}
 
     //getters
-    public int getId() {return id;}
+    public UUID getId() {return id;}
     public String getName() {return name;}
     public String getType() {return type;}
     public String getAddress() {return address;}

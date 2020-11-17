@@ -48,6 +48,7 @@ public class Restaurant {
         this.address = address;
         this.phoneNb = phoneNb;
         this.costForTwo = costForTwo;
+        this.photo="https://ibb.co/1nVGxwp";
         this.visited = false;
         this.visitDate = null;
     }
@@ -63,6 +64,7 @@ public class Restaurant {
     public void setCostForTwo(int costForTwo) {this.costForTwo = costForTwo;}
     public void setVisited(boolean visited) {this.visited = visited;}
     public void setVisitDate(LocalDate visitDate) {this.visitDate = visitDate;}
+    public void setPhoto(String link) {this.photo = link;}
 
     //getters
     public UUID getId() {return id;}
@@ -73,4 +75,5 @@ public class Restaurant {
     public int getCostForTwo() {return costForTwo;}
     public LocalDate getVisitDate() {return visitDate;}
     public boolean isVisited() {return visited;}
+    public String getPhoto() {return photo;}
 }

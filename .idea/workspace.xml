@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="59a1619d-b0dd-4c69-8f96-bc538a93ff74" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Restaurants.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/restuarantsfrontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/restuarantsfrontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restuarantsfrontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/restuarantsfrontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restuarantsfrontend/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/restuarantsfrontend/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/restuarantsfrontend/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restuarantsfrontend/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/restuarantsfrontend/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/restuarantsfrontend/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/restuarantsfrontend/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restuarantsfrontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/restuarantsfrontend/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restuarantsfrontend/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/restuarantsfrontend/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restuarantsfrontend/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/Restaurants/Controller/RestaurantController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/Restaurants/Dao/RestaurantDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/Restaurants/Entity/Restaurant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/Restaurants/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/Restaurants/Service/RestaurantService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/Restaurants/Controller/RestaurantController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/Restaurants/Dao/RestaurantDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/Restaurants/Entity/Restaurant.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/Restaurants/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/Restaurants/Service/RestaurantService.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA 2020.2.3\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1keo6LpqBqgPKvIJuAFlHZX8Y9S" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/restaurantsBackEnd" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="59a1619d-b0dd-4c69-8f96-bc538a93ff74" name="Default Changelist" comment="" />
+      <created>1606070244493</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606070244493</updated>
+      <workItem from="1606070245741" duration="27000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-1469" y="295" key="FileChooserDialogImpl" timestamp="1606070270265">
+      <screen x="-2498" y="0" width="2498" height="1080" />
+    </state>
+    <state x="-1469" y="295" key="FileChooserDialogImpl/0.0.1536.824/-2498.0.2498.1080@-2498.0.2498.1080" timestamp="1606070270265" />
+  </component>
+</project>

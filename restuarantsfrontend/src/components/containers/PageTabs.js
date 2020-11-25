@@ -7,14 +7,28 @@ import Tab from '@material-ui/core/Tab';
 import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
 import AllRestaurants from "../Restaurant/AllRestaurants";
-
 import AllVisits from '../Visit/AllVisits';
+
+
+
+const useStyles = makeStyles((theme) => ({
+  root: {
+    flexGrow: 1,
+    backgroundColor: theme.palette.background.paper,
+  },
+}));
+
 
 
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
 
+  TabPanel.propTypes = {
+    children: PropTypes.node,
+    index: PropTypes.any.isRequired,
+    value: PropTypes.any.isRequired,
+  };
   return (
     <div
       role="tabpanel"
@@ -24,7 +38,7 @@ function TabPanel(props) {
       {...other}
     >
       {value === index && (
-        <Box p={3}>
+        <Box p={1}>
           <Typography>{children}</Typography>
         </Box>
       )}
@@ -32,30 +46,12 @@ function TabPanel(props) {
   );
 }
 
-TabPanel.propTypes = {
-  children: PropTypes.node,
-  index: PropTypes.any.isRequired,
-  value: PropTypes.any.isRequired,
-};
 
-function a11yProps(index) {
-  return {
-    id: `simple-tab-${index}`,
-    'aria-controls': `simple-tabpanel-${index}`,
-  };
-}
 
-const useStyles = makeStyles((theme) => ({
-  root: {
-    flexGrow: 1,
-    backgroundColor: theme.palette.background.paper,
-  },
-}));
 
-export default function SimpleTabs() {
+const PageTabs = () =>{
   const classes = useStyles();
   const [value, setValue] = React.useState(0);
-
   const handleChange = (event, newValue) => {
     setValue(newValue);
   };
@@ -64,20 +60,12 @@ export default function SimpleTabs() {
     <div className={classes.root}>
     <AppBar position="static">
       <Tabs value={value} onChange={handleChange}>
-        <Tab label="Page 1" {...a11yProps(0)} />
-        <Tab label="Page 2" {...a11yProps(1)} />
-      </Tabs>
+        <Tab label="Page 1" />
+        <Tab label="Page 2" />      </Tabs>
     </AppBar>
-
-
-    
     <TabPanel value={value} index={0}>
-    
       <AllRestaurants/>
     </TabPanel>
-
-
-    
     <TabPanel value={value} index={1}>
         
         <AllVisits/>
@@ -85,3 +73,4 @@ export default function SimpleTabs() {
   </div>
   );
 }
+export default PageTabs;

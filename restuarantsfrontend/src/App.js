@@ -1,6 +1,4 @@
-import './App.css';
 import PageTabs from './components/containers/PageTabs';
-
 
 
 function App() {

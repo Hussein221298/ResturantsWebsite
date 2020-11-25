@@ -7,7 +7,7 @@ const initailState = {
 }
 
 
-export default function visits(state=initailState, action){
+export default function getVisitsReducer(state=initailState, action){
     switch(action.type){
         case type.GET_VISITS_REQUEST:
             return{

@@ -6,7 +6,7 @@ import InputBase from '@material-ui/core/InputBase';
 import SearchIcon from '@material-ui/icons/Search';
 import RestaurantTypeDropBox from './RestaurantTypeDropBox';
 import {useState} from 'react';
-// import NativeSelects from './dropBox'
+import Button from '@material-ui/core/Button';
 
 const useStyles = makeStyles((theme) => ({
   grow: {
@@ -19,16 +19,16 @@ const useStyles = makeStyles((theme) => ({
     '&:hover': {
       backgroundColor: fade(theme.palette.common.white, 0.25),
     },
-    marginRight: theme.spacing(2),
+    marginRight: theme.spacing(0),
     marginLeft: 0,
-    width: '100%',
+    width: '14ch',
     [theme.breakpoints.up('sm')]: {
       marginLeft: theme.spacing(3),
-      width: 'auto',
+      width: '22ch',
     },
   },
   searchIcon: {
-    padding: theme.spacing(0, 2),
+    padding: theme.spacing(0, 1),
     height: '100%',
     position: 'absolute',
     pointerEvents: 'none',
@@ -41,27 +41,17 @@ const useStyles = makeStyles((theme) => ({
   },
   inputInput: {
     padding: theme.spacing(1, 1, 1, 0),
-    paddingLeft: `calc(1em + ${theme.spacing(4)}px)`,
-    transition: theme.transitions.create('width'),
-    width: '100%',
-    [theme.breakpoints.up('md')]: {
-      width: '20ch',
-    },
+    paddingLeft: theme.spacing(4),
   },
-
-
 }));
 
-
-
-
-
-
 const RestaurantSearchBar=props=> {
+
   const classes = useStyles("");
 
   const [search, setSearch] = useState('');
-  const fetchSearchValue = (event)=>{
+ 
+  const saveSearchValue = (event)=>{
       setSearch(event.target.value);
   }
 
@@ -74,27 +64,26 @@ const RestaurantSearchBar=props=> {
     <div className={classes.grow}>
       <AppBar position="static">
         <Toolbar>
-            <div className={classes.search}>
-                <div className={classes.searchIcon}>
+          <div className={classes.search}>
+              <div className={classes.searchIcon}>
                 <SearchIcon />
-                </div>
-                <InputBase
+              </div>
+              <InputBase
                 placeholder="Search…"
-                onChange={fetchSearchValue}
+                onChange={saveSearchValue}
                 classes={{
                     root: classes.inputRoot,
                     input: classes.inputInput,
                 }}
-                inputProps={{ 'aria-label': 'search' }}
-                
-                />
-            </div>
-            <div>
+                inputProps={{ 'aria-label': 'search' }}    
+              />
+          </div>
+          <div>
             <RestaurantTypeDropBox getTypeValue={props.getTypeValue}/>
-            </div>
-            <button type="button" onClick={getSearchValue}>
-                Search
-            </button>
+          </div>
+          <Button variant="contained"  onClick={getSearchValue}>
+            Search
+          </Button>
         </Toolbar>
       </AppBar>
     </div>

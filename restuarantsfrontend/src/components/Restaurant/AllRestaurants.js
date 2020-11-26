@@ -13,10 +13,10 @@ import CircularProgress from '@material-ui/core/CircularProgress';
 const useStyles = makeStyles((theme) => ({
     gridContainer:{
         paddingTop:'40px',
-        paddingBottom:'40px',
+        paddingBottom:'20px',
         [theme.breakpoints.up('sm')]: {
-            paddingLeft:'80px',
-            paddingRight:'80px',
+            paddingLeft:'70px',
+            paddingRight:'70px',
         },
         [theme.breakpoints.down('sm')]: {
             paddingLeft:'40px',
